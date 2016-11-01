@@ -34,7 +34,7 @@ function! HackerChar()
 
 
     " let tempreg = @a
-    let a = strpart(hackertyperbuffer[line('.') -1],col('.') -1,Rand() % 15 + 5)
+    let a = strpart(hackertyperbuffer[line('.') -1],col('.') -1,Rand() % 30 + 5)
     let mychar = getchar()
     if a == ''
         if line(".") < line('$')
